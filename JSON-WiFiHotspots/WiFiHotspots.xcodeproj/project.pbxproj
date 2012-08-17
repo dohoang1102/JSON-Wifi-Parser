@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5F3E1E1486BB3100B423DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5F3E1D1486BB3100B423DA /* UIKit.framework */; };
+		0E5F3E201486BB3100B423DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5F3E1F1486BB3100B423DA /* Foundation.framework */; };
+		0E5F3E221486BB3100B423DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5F3E211486BB3100B423DA /* CoreGraphics.framework */; };
+		0E5F3E281486BB3100B423DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F3E261486BB3100B423DA /* InfoPlist.strings */; };
+		0E5F3E2A1486BB3100B423DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F3E291486BB3100B423DA /* main.m */; };
+		0E5F3E2E1486BB3100B423DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F3E2D1486BB3100B423DA /* AppDelegate.m */; };
+		0E5F3E311486BB3100B423DA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F3E301486BB3100B423DA /* MasterViewController.m */; };
+		0E5F3E341486BB3100B423DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F3E331486BB3100B423DA /* DetailViewController.m */; };
+		0E5F3E371486BB3100B423DA /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F3E351486BB3100B423DA /* MasterViewController_iPhone.xib */; };
+		0E5F3E3A1486BB3100B423DA /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F3E381486BB3100B423DA /* MasterViewController_iPad.xib */; };
+		0E5F3E3D1486BB3100B423DA /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F3E3B1486BB3100B423DA /* DetailViewController_iPhone.xib */; };
+		0E5F3E401486BB3100B423DA /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F3E3E1486BB3100B423DA /* DetailViewController_iPad.xib */; };
+		0E5F3E4F1486CE9000B423DA /* WifiParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F3E4E1486CE9000B423DA /* WifiParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E5F3E191486BB3100B423DA /* WiFiHotspots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiHotspots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5F3E1D1486BB3100B423DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E5F3E1F1486BB3100B423DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E5F3E211486BB3100B423DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E5F3E251486BB3100B423DA /* WiFiHotspots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiFiHotspots-Info.plist"; sourceTree = "<group>"; };
+		0E5F3E271486BB3100B423DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E5F3E291486BB3100B423DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E5F3E2B1486BB3100B423DA /* WiFiHotspots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiFiHotspots-Prefix.pch"; sourceTree = "<group>"; };
+		0E5F3E2C1486BB3100B423DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E5F3E2D1486BB3100B423DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E5F3E2F1486BB3100B423DA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0E5F3E301486BB3100B423DA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0E5F3E321486BB3100B423DA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0E5F3E331486BB3100B423DA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0E5F3E361486BB3100B423DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		0E5F3E391486BB3100B423DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		0E5F3E3C1486BB3100B423DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		0E5F3E3F1486BB3100B423DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		0E5F3E4D1486CE9000B423DA /* WifiParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WifiParser.h; path = ../WifiParser.h; sourceTree = "<group>"; };
+		0E5F3E4E1486CE9000B423DA /* WifiParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WifiParser.m; path = ../WifiParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5F3E161486BB3100B423DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5F3E1E1486BB3100B423DA /* UIKit.framework in Frameworks */,
+				0E5F3E201486BB3100B423DA /* Foundation.framework in Frameworks */,
+				0E5F3E221486BB3100B423DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5F3E0E1486BB2E00B423DA = {
+			isa = PBXGroup;
+			children = (
+				0E5F3E231486BB3100B423DA /* WiFiHotspots */,
+				0E5F3E1C1486BB3100B423DA /* Frameworks */,
+				0E5F3E1A1486BB3100B423DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E5F3E1A1486BB3100B423DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F3E191486BB3100B423DA /* WiFiHotspots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5F3E1C1486BB3100B423DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F3E1D1486BB3100B423DA /* UIKit.framework */,
+				0E5F3E1F1486BB3100B423DA /* Foundation.framework */,
+				0E5F3E211486BB3100B423DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E5F3E231486BB3100B423DA /* WiFiHotspots */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F3E2C1486BB3100B423DA /* AppDelegate.h */,
+				0E5F3E2D1486BB3100B423DA /* AppDelegate.m */,
+				0E5F3E2F1486BB3100B423DA /* MasterViewController.h */,
+				0E5F3E301486BB3100B423DA /* MasterViewController.m */,
+				0E5F3E321486BB3100B423DA /* DetailViewController.h */,
+				0E5F3E331486BB3100B423DA /* DetailViewController.m */,
+				0E5F3E351486BB3100B423DA /* MasterViewController_iPhone.xib */,
+				0E5F3E381486BB3100B423DA /* MasterViewController_iPad.xib */,
+				0E5F3E3B1486BB3100B423DA /* DetailViewController_iPhone.xib */,
+				0E5F3E3E1486BB3100B423DA /* DetailViewController_iPad.xib */,
+				0E5F3E4D1486CE9000B423DA /* WifiParser.h */,
+				0E5F3E4E1486CE9000B423DA /* WifiParser.m */,
+				0E5F3E241486BB3100B423DA /* Supporting Files */,
+			);
+			path = WiFiHotspots;
+			sourceTree = "<group>";
+		};
+		0E5F3E241486BB3100B423DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F3E251486BB3100B423DA /* WiFiHotspots-Info.plist */,
+				0E5F3E261486BB3100B423DA /* InfoPlist.strings */,
+				0E5F3E291486BB3100B423DA /* main.m */,
+				0E5F3E2B1486BB3100B423DA /* WiFiHotspots-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E5F3E181486BB3100B423DA /* WiFiHotspots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5F3E431486BB3100B423DA /* Build configuration list for PBXNativeTarget "WiFiHotspots" */;
+			buildPhases = (
+				0E5F3E151486BB3100B423DA /* Sources */,
+				0E5F3E161486BB3100B423DA /* Frameworks */,
+				0E5F3E171486BB3100B423DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiHotspots;
+			productName = WiFiHotspots;
+			productReference = 0E5F3E191486BB3100B423DA /* WiFiHotspots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E5F3E101486BB2E00B423DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0E5F3E131486BB2E00B423DA /* Build configuration list for PBXProject "WiFiHotspots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E5F3E0E1486BB2E00B423DA;
+			productRefGroup = 0E5F3E1A1486BB3100B423DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E5F3E181486BB3100B423DA /* WiFiHotspots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5F3E171486BB3100B423DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5F3E281486BB3100B423DA /* InfoPlist.strings in Resources */,
+				0E5F3E371486BB3100B423DA /* MasterViewController_iPhone.xib in Resources */,
+				0E5F3E3A1486BB3100B423DA /* MasterViewController_iPad.xib in Resources */,
+				0E5F3E3D1486BB3100B423DA /* DetailViewController_iPhone.xib in Resources */,
+				0E5F3E401486BB3100B423DA /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E5F3E151486BB3100B423DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5F3E2A1486BB3100B423DA /* main.m in Sources */,
+				0E5F3E2E1486BB3100B423DA /* AppDelegate.m in Sources */,
+				0E5F3E311486BB3100B423DA /* MasterViewController.m in Sources */,
+				0E5F3E341486BB3100B423DA /* DetailViewController.m in Sources */,
+				0E5F3E4F1486CE9000B423DA /* WifiParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E5F3E261486BB3100B423DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5F3E271486BB3100B423DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E5F3E351486BB3100B423DA /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5F3E361486BB3100B423DA /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0E5F3E381486BB3100B423DA /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5F3E391486BB3100B423DA /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		0E5F3E3B1486BB3100B423DA /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5F3E3C1486BB3100B423DA /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0E5F3E3E1486BB3100B423DA /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5F3E3F1486BB3100B423DA /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E5F3E411486BB3100B423DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E5F3E421486BB3100B423DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5F3E441486BB3100B423DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiFiHotspots/WiFiHotspots-Prefix.pch";
+				INFOPLIST_FILE = "WiFiHotspots/WiFiHotspots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E5F3E451486BB3100B423DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiFiHotspots/WiFiHotspots-Prefix.pch";
+				INFOPLIST_FILE = "WiFiHotspots/WiFiHotspots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5F3E131486BB2E00B423DA /* Build configuration list for PBXProject "WiFiHotspots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5F3E411486BB3100B423DA /* Debug */,
+				0E5F3E421486BB3100B423DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5F3E431486BB3100B423DA /* Build configuration list for PBXNativeTarget "WiFiHotspots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5F3E441486BB3100B423DA /* Debug */,
+				0E5F3E451486BB3100B423DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E5F3E101486BB2E00B423DA /* Project object */;
+}

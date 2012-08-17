@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8481CF1487EAA900F97B11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8481CE1487EAA900F97B11 /* UIKit.framework */; };
+		0E8481D11487EAA900F97B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8481D01487EAA900F97B11 /* Foundation.framework */; };
+		0E8481D31487EAA900F97B11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8481D21487EAA900F97B11 /* CoreGraphics.framework */; };
+		0E8481D91487EAA900F97B11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E8481D71487EAA900F97B11 /* InfoPlist.strings */; };
+		0E8481DB1487EAA900F97B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8481DA1487EAA900F97B11 /* main.m */; };
+		0E8481DF1487EAA900F97B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8481DE1487EAA900F97B11 /* AppDelegate.m */; };
+		0E8481E21487EAA900F97B11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8481E01487EAA900F97B11 /* MainStoryboard.storyboard */; };
+		0E8481E51487EAAA00F97B11 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8481E41487EAAA00F97B11 /* MasterViewController.m */; };
+		0E8481E81487EAAA00F97B11 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8481E71487EAAA00F97B11 /* DetailViewController.m */; };
+		0E8481EF1487EE1100F97B11 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8481EE1487EE1100F97B11 /* MapKit.framework */; };
+		0E8481F214880A1C00F97B11 /* JSONFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8481F114880A1C00F97B11 /* JSONFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E8481CA1487EAA800F97B11 /* WifiLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8481CE1487EAA900F97B11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E8481D01487EAA900F97B11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E8481D21487EAA900F97B11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E8481D61487EAA900F97B11 /* WifiLocator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiLocator-Info.plist"; sourceTree = "<group>"; };
+		0E8481D81487EAA900F97B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E8481DA1487EAA900F97B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E8481DC1487EAA900F97B11 /* WifiLocator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiLocator-Prefix.pch"; sourceTree = "<group>"; };
+		0E8481DD1487EAA900F97B11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E8481DE1487EAA900F97B11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E8481E11487EAA900F97B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0E8481E31487EAAA00F97B11 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0E8481E41487EAAA00F97B11 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0E8481E61487EAAA00F97B11 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0E8481E71487EAAA00F97B11 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0E8481EE1487EE1100F97B11 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0E8481F014880A1C00F97B11 /* JSONFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONFetcher.h; sourceTree = "<group>"; };
+		0E8481F114880A1C00F97B11 /* JSONFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E8481C71487EAA800F97B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8481EF1487EE1100F97B11 /* MapKit.framework in Frameworks */,
+				0E8481CF1487EAA900F97B11 /* UIKit.framework in Frameworks */,
+				0E8481D11487EAA900F97B11 /* Foundation.framework in Frameworks */,
+				0E8481D31487EAA900F97B11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8481BF1487EAA700F97B11 = {
+			isa = PBXGroup;
+			children = (
+				0E8481F014880A1C00F97B11 /* JSONFetcher.h */,
+				0E8481F114880A1C00F97B11 /* JSONFetcher.m */,
+				0E8481D41487EAA900F97B11 /* WifiLocator */,
+				0E8481CD1487EAA800F97B11 /* Frameworks */,
+				0E8481CB1487EAA800F97B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E8481CB1487EAA800F97B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E8481CA1487EAA800F97B11 /* WifiLocator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E8481CD1487EAA800F97B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8481EE1487EE1100F97B11 /* MapKit.framework */,
+				0E8481CE1487EAA900F97B11 /* UIKit.framework */,
+				0E8481D01487EAA900F97B11 /* Foundation.framework */,
+				0E8481D21487EAA900F97B11 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E8481D41487EAA900F97B11 /* WifiLocator */ = {
+			isa = PBXGroup;
+			children = (
+				0E8481DD1487EAA900F97B11 /* AppDelegate.h */,
+				0E8481DE1487EAA900F97B11 /* AppDelegate.m */,
+				0E8481E01487EAA900F97B11 /* MainStoryboard.storyboard */,
+				0E8481E31487EAAA00F97B11 /* MasterViewController.h */,
+				0E8481E41487EAAA00F97B11 /* MasterViewController.m */,
+				0E8481E61487EAAA00F97B11 /* DetailViewController.h */,
+				0E8481E71487EAAA00F97B11 /* DetailViewController.m */,
+				0E8481D51487EAA900F97B11 /* Supporting Files */,
+			);
+			path = WifiLocator;
+			sourceTree = "<group>";
+		};
+		0E8481D51487EAA900F97B11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E8481D61487EAA900F97B11 /* WifiLocator-Info.plist */,
+				0E8481D71487EAA900F97B11 /* InfoPlist.strings */,
+				0E8481DA1487EAA900F97B11 /* main.m */,
+				0E8481DC1487EAA900F97B11 /* WifiLocator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8481C91487EAA800F97B11 /* WifiLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8481EB1487EAAA00F97B11 /* Build configuration list for PBXNativeTarget "WifiLocator" */;
+			buildPhases = (
+				0E8481C61487EAA800F97B11 /* Sources */,
+				0E8481C71487EAA800F97B11 /* Frameworks */,
+				0E8481C81487EAA800F97B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiLocator;
+			productName = WifiLocator;
+			productReference = 0E8481CA1487EAA800F97B11 /* WifiLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E8481C11487EAA700F97B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0E8481C41487EAA700F97B11 /* Build configuration list for PBXProject "WifiLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E8481BF1487EAA700F97B11;
+			productRefGroup = 0E8481CB1487EAA800F97B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8481C91487EAA800F97B11 /* WifiLocator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E8481C81487EAA800F97B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8481D91487EAA900F97B11 /* InfoPlist.strings in Resources */,
+				0E8481E21487EAA900F97B11 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E8481C61487EAA800F97B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8481DB1487EAA900F97B11 /* main.m in Sources */,
+				0E8481DF1487EAA900F97B11 /* AppDelegate.m in Sources */,
+				0E8481E51487EAAA00F97B11 /* MasterViewController.m in Sources */,
+				0E8481E81487EAAA00F97B11 /* DetailViewController.m in Sources */,
+				0E8481F214880A1C00F97B11 /* JSONFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E8481D71487EAA900F97B11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8481D81487EAA900F97B11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E8481E01487EAA900F97B11 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8481E11487EAA900F97B11 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E8481E91487EAAA00F97B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0E8481EA1487EAAA00F97B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E8481EC1487EAAA00F97B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiLocator/WifiLocator-Prefix.pch";
+				INFOPLIST_FILE = "WifiLocator/WifiLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E8481ED1487EAAA00F97B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiLocator/WifiLocator-Prefix.pch";
+				INFOPLIST_FILE = "WifiLocator/WifiLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E8481C41487EAA700F97B11 /* Build configuration list for PBXProject "WifiLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8481E91487EAAA00F97B11 /* Debug */,
+				0E8481EA1487EAAA00F97B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8481EB1487EAAA00F97B11 /* Build configuration list for PBXNativeTarget "WifiLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8481EC1487EAAA00F97B11 /* Debug */,
+				0E8481ED1487EAAA00F97B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E8481C11487EAA700F97B11 /* Project object */;
+}
