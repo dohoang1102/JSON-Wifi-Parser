@@ -3,7 +3,7 @@ JSON-Wifi-Parser
 
 ### Project Objective:
 
-Eat a JSON Feed, parse it, populate a map.
+Eat a JSON or XML Feed, parse it, populate a map.
 
 ### Project Requirements:
 
@@ -18,6 +18,11 @@ Eat a JSON Feed, parse it, populate a map.
 -Foundation.framework
 
 -CoreGraphics.framework
+
+### Info
+
+- JSON Feed project -> JSON-WiFiHotspots 
+- XML Feed project -> -WifiLocator
 
 ### Known Issues
 
